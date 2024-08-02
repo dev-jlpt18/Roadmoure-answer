@@ -27,9 +27,51 @@ namespace Program
 {
     class Funciones 
     {
+        static void FuncionSinParametrosNiRetorno()
+        {
+            Console.WriteLine("Funcion sin parametros ni retorno");
+        }
+
+        static void FuncionConParametros(int a, int b)
+        {
+            Console.WriteLine("Funcion con parametros: " + a + " " + b);
+        }
+
+        static int FuncionConRetorno(int a, int b)
+        {
+            return a + b;
+        }
+
+        static int cantidadDeImpresiones (string a, string b) 
+        {
+            int contador = 0;
+            int iterador = 1;
+            while (iterador <= 100)
+            {
+                if (iterador % 3 == 0 && iterador % 5 == 0)
+                {
+                    Console.WriteLine(a + b);
+                } else if (iterador % 3 == 0)
+                {
+                    Console.WriteLine(a);
+                } else if (iterador % 5 == 0)
+                {
+                    Console.WriteLine(b);
+                } else
+                {
+                    Console.WriteLine(iterador);
+                    contador++;
+                }
+                iterador++;
+            }
+            return contador;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Funciones en C#");
+            FuncionSinParametrosNiRetorno();
+            FuncionConParametros(1, 2);
+            Console.WriteLine("Funcion con retorno: " + FuncionConRetorno(1, 2));
+            Console.WriteLine("Cantidad de impresiones: " + cantidadDeImpresiones("First", "Second"));
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\TestCsharp\\TestCsharp.csproj",
+      "projectUniqueName": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\Roadmoure-answer\\TestCsharp\\TestCsharp.csproj",
       "projectName": "TestCsharp",
-      "projectPath": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\TestCsharp\\TestCsharp.csproj",
+      "projectPath": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\Roadmoure-answer\\TestCsharp\\TestCsharp.csproj",
       "packagesPath": "C:\\Users\\jlpt1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\TestCsharp\\obj\\",
+      "outputPath": "C:\\Users\\jlpt1\\Documents\\Roadmoure\\Roadmoure-answer\\TestCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jlpt1\\AppData\\Roaming\\NuGet\\NuGet.Config"
