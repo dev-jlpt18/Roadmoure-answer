@@ -1,0 +1,14 @@
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\bin\Debug\net8.0\TestCsharp.exe
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\bin\Debug\net8.0\TestCsharp.deps.json
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\bin\Debug\net8.0\TestCsharp.runtimeconfig.json
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\bin\Debug\net8.0\TestCsharp.dll
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\bin\Debug\net8.0\TestCsharp.pdb
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.AssemblyInfoInputs.cache
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.AssemblyInfo.cs
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.csproj.CoreCompileInputs.cache
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.dll
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\refint\TestCsharp.dll
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.pdb
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\TestCsharp.genruntimeconfig.cache
+c:\Users\jlpt1\Documents\Roadmoure\TestCsharp\obj\Debug\net8.0\ref\TestCsharp.dll
