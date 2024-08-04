@@ -41,7 +41,8 @@ namespace Program
         {
             return a + b;
         }
-
+        
+        // Dificultad extra
         static int cantidadDeImpresiones (string a, string b) 
         {
             int contador = 0;
