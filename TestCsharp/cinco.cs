@@ -53,34 +53,33 @@ namespace Program
             x = 18;
             y = 28;
 
-            int a, b = SwapPorValor(x,y)
-
-            int c, d = SwapPorReferencia(x,y)
+            (a, b) = SwapPorValor(x,y);
 
             Console.WriteLine($"Valores antes del cambio: x:{x} y  y:{y}");
             Console.WriteLine($"Swap por valor: a:{a}, b:{b}");
             Console.WriteLine($"Valores despues del cambio por valor: x:{x} y  y:{y}");
-
+            
             Console.WriteLine($"Valores antes del cambio por referencia: x:{x} y  y:{y}");
+            var (c, d) = SwapPorReferencia(ref x,ref y);
             Console.WriteLine($"Swap por referencia: c:{c}, d:{d}");
             Console.WriteLine($"Valores despues del cambio por referencia: x:{x} y  y:{y}");
         }
-        static int SwapPorValor(int num1, int num2) 
+        static (int, int) SwapPorValor(int num1, int num2) 
         {
             int swap = num1;
-            num1 = num2
-            num2 = swap
+            num1 = num2;
+            num2 = swap;
 
-            return num1, num2
+            return (num1, num2);
         }
 
-        static int SwapPorReferencia(int num1, int num2) 
+        static (int, int) SwapPorReferencia(ref int num1, ref int num2) 
         {
             int swap = num1;
-            num1 = num2
-            num2 = swap
+            num1 = num2;
+            num2 = swap;
 
-            return num1, num2
+            return (num1, num2);
         }
         static void ModificarPorValor(int num)
         {
@@ -91,9 +90,10 @@ namespace Program
         {
             num = 10;
         }
-        static void ActualizarIn(in int valor)
+
+        static void ActualizarIn(in int num)
         {
-            num += 5; //Da Error 
+            //num += 5; //Da Error 
             Console.WriteLine($"el valor es: {num}");
         }
 

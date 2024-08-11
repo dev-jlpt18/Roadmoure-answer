@@ -12,9 +12,9 @@
 
 namespace Program 
 {
-    class recursividad
+    class Recursividad
     {
-        static int ImprimirNumeros(int num)
+        static void ImprimirNumeros(int num)
         {
             if (num > 1)
             {
@@ -23,7 +23,6 @@ namespace Program
             } else 
             {
                 Console.WriteLine("Numero:" + num);
-                return 1;
             }
         }
         static int Factorial(int num)
@@ -37,7 +36,7 @@ namespace Program
                 return 1;
             } else 
             {
-                Console.WriteLine("Debe ser un numero entero positivo")
+                Console.WriteLine("Debe ser un numero entero positivo");
                 return 0;
             }
         }
@@ -49,19 +48,22 @@ namespace Program
                 return 0;
            } else if (num == 2)
            {
-            return 1
+            return 1;
            } else
            {
-            return Fibonacci(num-1)+ Fibonacci(num-2)
+            return Fibonacci(num-1)+ Fibonacci(num-2);
            }
         }
         static void Main(string[] args)
         {
-            ImprimirNumeros(100)
-            int num = Console.ReadLine("Dame un numero:")
-            Console.WrtiteFactorial($"Factorial de {num} = {Factorial(num)}")
-            num = Console.ReadLine("Dame una posicion del Fibonacci:");
-            Console.WrtiteFactorial($"Fibonacci en la posicion {num} = {Fibonacci(num)}")
+            ImprimirNumeros(100);
+            Console.WriteLine("Dame un numero:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Este es el factorial de {num}: {Factorial(num)}");
+
+            Console.WriteLine("Dame un numero:");
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Este es el fibonacci en la posicion {num}: {Fibonacci(num)}");
         }
 
     }
